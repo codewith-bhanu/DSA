@@ -1,7 +1,7 @@
 def sorted(arr):
     n=len(arr)
     for i in range(1,n):
-        if(arr[i-1]<arr[i]):
+        if(arr[i-1]<=arr[i]):
             return True
         else:
             return False
